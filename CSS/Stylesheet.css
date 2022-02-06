@@ -1,6 +1,5 @@
 body {
-	/*background-color: #F3FBF3; */
-	background-color: rgb(210, 214, 226); 
+	background-color: #d2d6e2; 
 	color: #000000;
 	font-family: Verdana;
 	height: 100%;
@@ -23,26 +22,57 @@ body {
   }
 
   
-  #navbar a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
+  a.underline {
+	color: #fff;
+	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 17px;
+	letter-spacing: 0.15em;
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
   }
-  
-  #navbar a:hover {
-	background-color: #ddd;
-	color: black;
+
+  a.underline:after {    
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 4px;
+	left: 50%;
+	position: absolute;
+	background:	#F9F8FF;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
   }
-  
-  #navbar a.active {
-	background-color: #04AA6D;
-	color: white;
+
+  a.underline:hover:after { 
+	width: 100%; 
+	left: 0; 
   }
-  
+
+  a.underline-active {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
+  }
+
+  a.underline-active:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 5px;
+	position: absolute;
+	background: #D73C4B;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 100%;
+	left: 0; 
+  }
+
   .content {
 	padding: 16px;
   }

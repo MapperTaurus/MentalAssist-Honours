@@ -1,7 +1,8 @@
 body {
 	background-color: #d2d6e2; 
 	color: #000000;
-	font-family: Verdana;
+	font-family: 'Sen', sans-serif;
+	font-size: 18px;
 	height: 100%;
 }
 
@@ -14,7 +15,7 @@ body {
 	background-color: #f1f1f1;
 	padding: 30px;
 	text-align: center;
-  }
+  }	
   
   #navbar {
 	overflow: hidden;
@@ -65,7 +66,7 @@ body {
 	bottom: 0;
 	content: "";
 	display: block;
-	height: 5px;
+	height: 4px;
 	position: absolute;
 	background: #D73C4B;
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -94,4 +95,73 @@ body {
 
   .logo-box {
 	  margin: 1rem;
+  }
+
+  section {
+	  position: relative;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  min-height: 400px;
+	  padding: 100px 20vw;
+	  
+  }
+
+  .cn-white {
+	  background: white;
+  }
+
+  .cn-blue {
+	  background:#003DA6;
+  }
+
+  .curve {
+	  position: absolute;
+	  height: 225px;
+	  width: 100%;
+	  bottom:0;
+  }
+
+  .curve::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 100% 50%;
+	width: 55%;
+	height: 100%;
+	background-color: #003DA6;
+	transform: translate(85%, 60%);
+  }
+
+  .curve::after {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 100% 50%;
+	width: 55%;
+	height: 100%;
+	background-color: #fff;
+	transform: translate(-4%, 40%);
+	z-index: -1;
+  }
+
+  .cn-title {
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	text-decoration: underline #D73C4B 4px; 
+	padding-bottom: 2rem;
+  }
+
+  .spacer {
+	  aspect-ratio: 960/300;
+	  width: 100%;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+  }
+
+  .layer1 {
+	  background-image: url("../Images/wave1.svg");
   }

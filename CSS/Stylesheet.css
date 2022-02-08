@@ -102,18 +102,21 @@ body {
 	  display: flex;
 	  flex-direction: column;
 	  align-items: center;
-	  min-height: 400px;
-	  padding: 100px 20vw;
+	  padding: 10px 20vw;
 	  
   }
 
   .cn-white {
-	  background: white;
+	  background: #d2d6e2;
   }
 
-  .cn-blue {
-	  background:#003DA6;
+  .cn-yellow {
+	  background: #e5ba7a;
   }
+
+  .cn-green {
+	background: #148582;
+}
 
   .curve {
 	  position: absolute;
@@ -154,8 +157,37 @@ body {
 	padding-bottom: 2rem;
   }
 
+  .cn-title-white {
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	text-decoration: underline #D73C4B 4px; 
+	padding-bottom: 2rem;
+	color: #F9F8FF;
+  }
+
+  .cn-title2-white {
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 800;
+	text-decoration: underline #D73C4B 2px; 
+	padding-top: 1.5rem;
+	padding-bottom: 0.5rem;
+	color: #F9F8FF;
+  }
+
+  .cn-whitespace {
+	  padding: 2.5rem;
+  }
+
+  .cn-text-white {
+	  color: #F9F8FF;
+  }
+
   .spacer {
-	  aspect-ratio: 960/300;
+	  aspect-ratio: 960/120;
 	  width: 100%;
 	  background-repeat: no-repeat;
 	  background-position: center;
@@ -165,3 +197,11 @@ body {
   .layer1 {
 	  background-image: url("../Images/wave1.svg");
   }
+
+  .layer2 {
+	background-image: url("../Images/wave2.svg");
+}
+
+	.layer3 {
+	background-image: url("../Images/wave3.svg");
+}

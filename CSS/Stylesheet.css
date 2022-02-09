@@ -9,6 +9,7 @@ body {
 * {
 	margin: 0;
 	padding: 0;
+	line-height: 1.8;
 }
 
 .header {
@@ -118,6 +119,14 @@ body {
 	background: #148582;
 }
 
+.cn-gray {
+	background: #eceae4;
+}
+
+.cn-purple {
+	background: #762081;
+}
+
   .curve {
 	  position: absolute;
 	  height: 225px;
@@ -164,7 +173,7 @@ body {
 	font-weight: 900;
 	text-decoration: underline #D73C4B 4px; 
 	padding-bottom: 2rem;
-	color: #F9F8FF;
+	color: #d2d6e2;
   }
 
   .cn-title2-white {
@@ -175,7 +184,7 @@ body {
 	text-decoration: underline #D73C4B 2px; 
 	padding-top: 1.5rem;
 	padding-bottom: 0.5rem;
-	color: #F9F8FF;
+	color: #d2d6e2;
   }
 
   .cn-whitespace {
@@ -183,7 +192,20 @@ body {
   }
 
   .cn-text-white {
-	  color: #F9F8FF;
+	  color: #d2d6e2;
+  }
+
+  .column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+  }
+  
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
   }
 
   .spacer {
@@ -205,3 +227,30 @@ body {
 	.layer3 {
 	background-image: url("../Images/wave3.svg");
 }
+
+	.layer4 {
+	background-image: url("../Images/wave4.svg");
+}
+
+.layer5 {
+	background-image: url("../Images/wave5.svg");
+}
+
+.layer6 {
+	background-image: url("../Images/wave6.svg");
+}
+
+.layer7 {
+	background-image: url("../Images/wave7.svg");
+}
+
+.layer8 {
+	background-image: url("../Images/wave8.svg");
+}
+
+
+.columns {
+	column-count: 2;
+}
+  
+

@@ -124,7 +124,7 @@ body {
 }
 
 .cn-purple {
-	background: #762081;
+	background: #D375C5;
 }
 
   .curve {
@@ -248,9 +248,19 @@ body {
 	background-image: url("../Images/wave8.svg");
 }
 
+.layer9 {
+	background-image: url("../Images/wave9.svg");
+}
+
+.layer10 {
+	background-image: url("../Images/wave10.svg");
+}
+
 
 .columns {
 	column-count: 2;
 }
   
 
+
+  

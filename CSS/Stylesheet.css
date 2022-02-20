@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.8;
+	text-align: justify;
 }
 
 .header {
@@ -113,6 +114,18 @@ body {
 	background: #D375C5;
 }
 
+.cn-red {
+	background: #D73C4B;
+}
+
+.cn-purple-light {
+	background: #BCC1FF;
+}
+
+.cn-mint {
+	background: #00B38B;
+}
+
   .curve {
 	  position: absolute;
 	  height: 225px;
@@ -152,6 +165,15 @@ body {
 	padding-bottom: 2rem;
   }
 
+  .cn-title-blue {
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	text-decoration: underline #BCC1FF 4px; 
+	padding-bottom: 2rem;
+  }
+
   .cn-title-white {
 	font-family: 'Sen', sans-serif;
 	text-transform: uppercase;
@@ -171,7 +193,16 @@ body {
 	padding-top: 1.5rem;
 	padding-bottom: 0.5rem;
 	color: #FFFFFF;
+  }
 
+  .cn-title2 {
+	font-family: 'Sen', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 800;
+	text-decoration: underline #D73C4B 2px; 
+	padding-top: 1.5rem;
+	padding-bottom: 0.5rem;
   }
 
   .cn-whitespace {
@@ -243,9 +274,34 @@ body {
 	background-image: url("../Images/wave10.svg");
 }
 
+.layer11 {
+	background-image: url("../Images/wave11.svg");
+}
+
+.layer12 {
+	background-image: url("../Images/wave12.svg");
+}
+
+.layer13 {
+	background-image: url("../Images/wave13.svg");
+}
+
+.layer14 {
+	background-image: url("../Images/wave14.svg");
+}
+
+.layer15 {
+	background-image: url("../Images/wave15.svg");
+}
+
+.layer16 {
+	background-image: url("../Images/wave16.svg");
+}
+
 
 .columns {
 	column-count: 2;
+	column-gap: 5rem;
 }
   
 

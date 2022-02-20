@@ -25,7 +25,7 @@ body {
 
   
   a.underline {
-	color: #fff;
+	color: #F9F8FF;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.15em;
@@ -73,20 +73,6 @@ body {
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
 	width: 100%;
 	left: 0; 
-  }
-
-  .content {
-	padding: 16px;
-  }
-  
-  .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-  .sticky + .content {
-	padding-top: 60px;
   }
 
   .topnav-right {
@@ -173,7 +159,7 @@ body {
 	font-weight: 900;
 	text-decoration: underline #D73C4B 4px; 
 	padding-bottom: 2rem;
-	color: #d2d6e2;
+	color: #FFFFFF;
   }
 
   .cn-title2-white {
@@ -184,7 +170,8 @@ body {
 	text-decoration: underline #D73C4B 2px; 
 	padding-top: 1.5rem;
 	padding-bottom: 0.5rem;
-	color: #d2d6e2;
+	color: #FFFFFF;
+
   }
 
   .cn-whitespace {
@@ -192,7 +179,7 @@ body {
   }
 
   .cn-text-white {
-	  color: #d2d6e2;
+	  color: #FFFFFF;
   }
 
   .column {
@@ -276,10 +263,29 @@ footer{
 
 .footer-content{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+	padding: 1%;
+	padding-left: 2%;
+	color: #E1E5F0;
+	margin-top: 5%;
+    justify-content: left;
     flex-direction: column;
-    text-align: center;
-	background: #F0EDFF;
+    text-align: left;
+	background: #003DA6;
+	font-size: 14px;
+	border-top: 4px dashed #d2d6e2;
+}
+
+.footer-link {
+	display: block;
+	align-items: right;
+	font-size: 24px;
 }
   
+.footer-link-button {
+	color:#E1E5F0;
+}
+
+a.footer-link-button:hover { 
+	color:#D73C4B;
+  }

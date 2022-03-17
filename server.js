@@ -20,9 +20,9 @@ const clinicsSchema = {
 
 const clinic = mongoose.model('clinic', clinicsSchema);
 
-app.get('/', (req, res) => {
+app.get('/clinics', (req, res) => {
     clinic.find({}, function(err, clinics) {
-        res.render('index', {
+        res.render('clinics', {
             clinicsList: clinics
         })
     })
@@ -47,9 +47,9 @@ app.get('/diet', (req, res) => {
         res.render('lockdown')
     })  
 
-    app.get('/clinics', (req, res) => {
+    app.get('/', (req, res) => {
    
-        res.render('clinics')
+        res.render('index')
     })
 
 app.listen(4000, function() {

@@ -13,28 +13,28 @@
 <body>
 
     <div id="navbar">
-        <a class="logo-box" href="index.html">
-        <img src="../Images/logo.svg" alt="Mental Assist Logo" width="180rem" height="140rem" onmouseover="this.src='../Images/logo2.svg';" onmouseout="this.src='../Images/logo.svg';">
+        <a class="logo-box" href="/">
+        <img src="/Images/logo.svg" alt="Mental Assist Logo" width="180rem" height="140rem" onmouseover="this.src='../Images/logo2.svg';" onmouseout="this.src='../Images/logo.svg';">
     </a>
 
         <div class="topnav-right">
-        <a class="underline" href="mindfulness.html">
+        <a class="underline" href="mindfulness">
             <img src="../Images/mindfulness-icon.svg" alt="Mindfulness" width="35rem" height="35rem"> Mindfulness   
         </a>
         
-        <a class="underline" href="habits.html">
+        <a class="underline" href="habits">
             <img src="../Images/habits-icon.svg" alt="Habits" width="35rem" height="35rem"> Habits   
         </a>
 
-        <a class="underline" href="diet.html">
+        <a class="underline" href="diet">
             <img src="../Images/diet-icon.svg" alt="Diet" width="35rem" height="35rem"> Diet   
         </a>
 
-        <a class="underline" href="lockdown.html">
+        <a class="underline" href="lockdown">
             <img src="../Images/lockdown-icon.svg" alt="Lockdown" width="35rem" height="35rem">  Lockdown   
         </a>
 
-        <a class="underline-active" href="clinics.html">
+        <a class="underline-active" href="clinics">
             <img src="../Images/clinics-icon.svg" alt="Lockdown" width="35rem" height="35rem">  Clinics   
         </a>
       </div>
@@ -57,6 +57,12 @@
 
 </section>
 <div class="spacer layer8"></div>
+
+<% clinicsList.forEach(clinic => { %>
+    <p><%= clinic.name %></p>
+    <p><%= clinic.address %></p>
+    <% }) %>
+
 <div class="footer-content">
     <b>Mental Assist</b>
     Glasgow Caledonian University - Honours Project [MHW225671] </br>

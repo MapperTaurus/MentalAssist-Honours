@@ -59,10 +59,12 @@
 <div class="spacer layer8"></div>
 
 <% clinicsList.forEach(clinic => { %>
-    <p><%= clinic.name %></p>
+    <h3><%= clinic.name %></h3>
     <p><%= clinic.address %></p>
+    <a href="tel:<%= clinic.phone %>"><%= clinic.phone %></a>
+    <a href="<%= clinic.website %>" target="_blank">Website</a>
     <% }) %>
-
+<a>test</a>
 <div class="footer-content">
     <b>Mental Assist</b>
     Glasgow Caledonian University - Honours Project [MHW225671] </br>

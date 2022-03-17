@@ -58,13 +58,27 @@
 </section>
 <div class="spacer layer8"></div>
 
-<% clinicsList.forEach(clinic => { %>
-    <h3><%= clinic.name %></h3>
-    <p><%= clinic.address %></p>
-    <a href="tel:<%= clinic.phone %>"><%= clinic.phone %></a>
-    <a href="<%= clinic.website %>" target="_blank">Website</a>
-    <% }) %>
-<a>test</a>
+<table>
+    <thead>
+        <tr>
+            <th> <i class="fa fa-tag" aria-hidden="true"></i> Name</th>
+            <th> <i class="fa fa-location-arrow" aria-hidden="true"></i> Address</th>
+            <th> <i class="fa fa-phone" aria-hidden="true"></i> Contact Number</th>
+            <th> <i class="fa fa-link" aria-hidden="true"></i> Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% clinicsList.forEach(clinic => { %>
+            <tr>
+                <td scope="row" aria-label="Name"><%= clinic.name %></td>
+                <td aria-label="Address"><%= clinic.address %></td>
+                <td aria-label="Contact"><a href="tel:<%= clinic.phone %>">Call Now</a></td>
+                <td aria-label="Website"><a href="<%= clinic.website %>" target="_blank">Visit Website</a></td>
+            </tr>
+            <% }) %>
+    </tbody>
+</table>
+
 <div class="footer-content">
     <b>Mental Assist</b>
     Glasgow Caledonian University - Honours Project [MHW225671] </br>

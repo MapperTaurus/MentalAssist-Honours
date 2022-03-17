@@ -310,7 +310,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #251607;
+    background: #111;
     height: auto;
     width: 100vw;
     padding-top: 40px;
@@ -322,12 +322,12 @@ footer{
     align-items: left;
 	padding: 1%;
 	padding-left: 2%;
-	color: black;
+	color: #E1E5F0;
 	margin-top: 5%;
     justify-content: left;
     flex-direction: column;
     text-align: left;
-	background: #ABA9BC;
+	background: #003DA6;
 	font-size: 14px;
 	border-top: 4px dashed #d2d6e2;
 }
@@ -339,97 +339,9 @@ footer{
 }
   
 .footer-link-button {
-	color:#251607;
+	color:#E1E5F0;
 }
 
 a.footer-link-button:hover { 
 	color:#D73C4B;
-  }
-
-  table {
-	width: 100%;
-  }
-  table thead tr {
-	background: #B7B5B4;
-  }
-  table thead tr h1,
-  table thead tr h2,
-  table thead tr .h1,
-  table thead tr .h2,
-  table thead tr h3,
-  table thead tr .h3,
-  table thead tr h4,
-  table thead tr .h4 {
-	color: #151515;
-  }
-  table thead tr a {
-	color: #0075b0;
-  }
-  table thead tr a:hover,
-  table thead tr a:focus {
-	color: white;
-  }
-  table tbody tr:nth-of-type(even) {
-	background: #E1DFDA;
-  }
-  table td,
-  table th {
-	padding: 8px 14px;
-	text-align: left;
-	font-size: 0.9rem;
-  }
-  table td a,
-  table th a {
-	font-weight: bold;
-	color: #003DA6 !important;
-  }
-  table td a:hover,
-  table th a:hover,
-  table td a:focus,
-  table th a:focus {
-	color: #D73C4B !important;
-  }
-  table th {
-	font-weight: 700;
-	font-size: 0.8rem;
-	line-height: 1.4;
-	text-transform: uppercase;
-	margin: 0;
-	max-width: 800px;
-	line-height: inherit;
-	color: #151515;
-  }
-  table th.PrimaryFont {
-	text-transform: none;
-  }
-
-  table:nth-of-type(odd) {
-	background: #ECEAE4;
-  }
-  
-  
-  @media only screen and (max-width: 599px) {
-	table th {
-	  display: none;
-	}
-	table td {
-	  position: relative;
-	  display: block;
-	  padding-left: 110px;
-	}
-	table td:before {
-	  position: absolute;
-	  top: 8px;
-	  left: 10px;
-	  display: block;
-	  content: attr(aria-label) ": ";
-	  font-weight: 700;
-	}
-	table tbody tr {
-	  padding: 20px 0;
-	  display: block;
-	}
-	table:nth-of-type(odd) {
-	  background: #ECEAE4;
-	}
   }

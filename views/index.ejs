@@ -5,17 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ivan Todorov">
+    <link rel="stylesheet" href="CSS/Stylesheet.css"/>
     <title>Mental Assist | Homepage</title>
 </head>
 <body>
 
-<h1>da</h1>test 1
+    <div id="navbar">
+        <a class="logo-box" href="/">
+        <img src="/Images/logo.svg" alt="Mental Assist Logo" width="180rem" height="140rem" onmouseover="this.src='../Images/logo2.svg';" onmouseout="this.src='../Images/logo.svg';">
+    </a>
+
+        <div class="topnav-right">
+        <a class="underline" href="mindfulness">
+            <img src="../Images/mindfulness-icon.svg" alt="Mindfulness" width="35rem" height="35rem"> Mindfulness   
+        </a>
+        
+        <a class="underline" href="habits">
+            <img src="../Images/habits-icon.svg" alt="Habits" width="35rem" height="35rem"> Habits   
+        </a>
+
+        <a class="underline" href="diet">
+            <img src="../Images/diet-icon.svg" alt="Diet" width="35rem" height="35rem"> Diet   
+        </a>
+
+        <a class="underline" href="lockdown">
+            <img src="../Images/lockdown-icon.svg" alt="Lockdown" width="35rem" height="35rem">  Lockdown   
+        </a>
+
+        <a class="underline" href="clinics">
+            <img src="../Images/clinics-icon.svg" alt="Lockdown" width="35rem" height="35rem">  Clinics   
+        </a>
+      </div>
+      </div>
       <% clinicsList.forEach(clinic => { %>
-          <p><%= clinic.name %></p>
-          <p><%= clinic.address %></p>
-          <% }) %>
+        <p><%= clinic.name %></p>
+        <p><%= clinic.address %></p>
+        <% }) %>
 
 
-          test2
 </body>
 </html>

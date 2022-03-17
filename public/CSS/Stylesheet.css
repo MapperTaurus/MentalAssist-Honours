@@ -310,7 +310,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #111;
+    background: #251607;
     height: auto;
     width: 100vw;
     padding-top: 40px;
@@ -322,12 +322,12 @@ footer{
     align-items: left;
 	padding: 1%;
 	padding-left: 2%;
-	color: #E1E5F0;
+	color: black;
 	margin-top: 5%;
     justify-content: left;
     flex-direction: column;
     text-align: left;
-	background: #003DA6;
+	background: #ABA9BC;
 	font-size: 14px;
 	border-top: 4px dashed #d2d6e2;
 }
@@ -339,7 +339,7 @@ footer{
 }
   
 .footer-link-button {
-	color:#E1E5F0;
+	color:#251607;
 }
 
 a.footer-link-button:hover { 

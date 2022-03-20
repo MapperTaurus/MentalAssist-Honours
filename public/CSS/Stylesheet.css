@@ -126,6 +126,26 @@ section {
 	background: #00B38B;
 }
 
+.cn-brick {
+	background: #d44a4a;
+}
+
+.cn-grass {
+	background: #81b440;
+}
+
+.cn-ocean {
+	background: #4081b4;
+}
+
+.cn-orange {
+	background: #e68910;
+}
+
+.cn-violet {
+	background: #8210e6;
+}
+
 .curve {
 	position: absolute;
 	height: 225px;
@@ -295,6 +315,46 @@ section {
 
 .layer16 {
 	background-image: url("../Images/wave16.svg");
+}
+
+.layer17 {
+	background-image: url("../Images/wave17.svg");
+}
+
+.layer18 {
+	background-image: url("../Images/wave18.svg");
+}
+
+.layer19 {
+	background-image: url("../Images/wave19.svg");
+}
+
+.layer20 {
+	background-image: url("../Images/wave20.svg");
+}
+
+.layer21 {
+	background-image: url("../Images/wave21.svg");
+}
+
+.layer22 {
+	background-image: url("../Images/wave22.svg");
+}
+
+.layer23 {
+	background-image: url("../Images/wave23.svg");
+}
+
+.layer24 {
+	background-image: url("../Images/wave24.svg");
+}
+
+.layer25 {
+	background-image: url("../Images/wave25.svg");
+}
+
+.layer26 {
+	background-image: url("../Images/wave26.svg");
 }
 
 .columns {

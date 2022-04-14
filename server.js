@@ -50,4 +50,6 @@ app.get('/', (req, res) => {
 
 app.listen(4000, function () {
     console.log('Server is running on port 4000');
+    console.log('\u001b[1;32mTo enter the website visit: http://localhost:4000/');
+    
 })

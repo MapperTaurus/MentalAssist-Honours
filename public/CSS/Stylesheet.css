@@ -479,11 +479,13 @@ table:nth-of-type(odd) {
 	table th {
 		display: none;
 	}
+
 	table td {
 		position: relative;
 		display: block;
 		padding-left: 110px;
 	}
+
 	table td:before {
 		position: absolute;
 		top: 8px;
@@ -492,10 +494,12 @@ table:nth-of-type(odd) {
 		content: attr(aria-label) ": ";
 		font-weight: 700;
 	}
+
 	table tbody tr {
 		padding: 20px 0;
 		display: block;
 	}
+
 	table:nth-of-type(odd) {
 		background: #ECEAE4;
 	}
@@ -548,16 +552,16 @@ table:nth-of-type(odd) {
 
 
 label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: right;
 }
 
 #check {
-    display: none;
+	display: none;
 }
 
 .menu {
@@ -565,51 +569,53 @@ label {
 }
 
 /* Style handling on smaller screens (phone) */
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
 
 	* {
 		text-align: left;
 	}
 
-	.topnav-right  {
-	margin: 0;
-	text-align: center;
-	width: 100%;
-	}
- 
- 	label {
-	 display: block;
-     cursor: pointer;
-	 color: white;
+	.topnav-right {
+		margin: 0;
+		text-align: center;
+		width: 100%;
 	}
 
- 	#check:checked + .menu .button-click .b, #check + .menu .menu-items, #check + .menu .button-click .x {
-    display: none;
+	label {
+		display: block;
+		cursor: pointer;
+		color: white;
 	}
 
- 	#check:checked + .menu .button-click .x, #check:checked + .menu .menu-items {
-    display: block;
+	#check:checked+.menu .button-click .b,
+	#check+.menu .menu-items,
+	#check+.menu .button-click .x {
+		display: none;
+	}
+
+	#check:checked+.menu .button-click .x,
+	#check:checked+.menu .menu-items {
+		display: block;
 	}
 
 	.columns {
-	column-count: 1;
+		column-count: 1;
 	}
 
 	.logo-box {
-	float:right;
-	margin-right: 2rem;
+		float: right;
+		margin-right: 2rem;
 	}
 
 	img {
-	max-width: 100%;
-	max-height: 100%;
-   }
+		max-width: 100%;
+		max-height: 100%;
+	}
 
 	.food-bubble {
 
-	height: 400px;
-	width: 400px;
+		height: 400px;
+		width: 400px;
 	}
 
 }
-

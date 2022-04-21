@@ -474,6 +474,7 @@ table:nth-of-type(odd) {
 	background: #ECEAE4;
 }
 
+
 @media only screen and (max-width: 599px) {
 	table th {
 		display: none;
@@ -543,3 +544,72 @@ table:nth-of-type(odd) {
 	text-align: center;
 	float: right;
 }
+
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+	width: 100%;
+}
+
+/* Style handling on smaller screens (phone) */
+@media only screen and (max-width: 600px) { 
+
+	* {
+		text-align: left;
+	}
+
+	.topnav-right  {
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	}
+ 
+ 	label {
+	 display: block;
+     cursor: pointer;
+	 color: white;
+	}
+
+ 	#check:checked + .menu .button-click .b, #check + .menu .menu-items, #check + .menu .button-click .x {
+    display: none;
+	}
+
+ 	#check:checked + .menu .button-click .x, #check:checked + .menu .menu-items {
+    display: block;
+	}
+
+	.columns {
+	column-count: 1;
+	}
+
+	.logo-box {
+	float:right;
+	margin-right: 2rem;
+	}
+
+	img {
+	max-width: 100%;
+	max-height: 100%;
+   }
+
+	.food-bubble {
+
+	height: 400px;
+	width: 400px;
+	}
+
+}
+

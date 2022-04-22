@@ -38,3 +38,17 @@ Student Email: **ITODOR200@caledonian.ac.uk**
 Programme: **Computing** 
 
 Project Supervisor: **Yan Zhang**
+
+# Website Screenshots
+![Index](https://i.imgur.com/CPrEQWX.png)
+![Habits](https://i.imgur.com/mQm3SMP.png)
+![Mindfulness](https://i.imgur.com/8Spf64L.png)
+![Diet](https://i.imgur.com/2boi5ye.png)
+![Lockdown](https://i.imgur.com/l7d1zuB.png)
+![Clinics(map)](https://i.imgur.com/fzV5Qlr.png)
+![Clinics(table)](https://i.imgur.com/Vis7H1f.png)
+![Lockdown(phone-view)](https://i.imgur.com/lJnGlOR.png)
+![Lockdown(phone-view)2](https://i.imgur.com/HrIMJ8t.png)
+![Clinics(phone-view)](https://i.imgur.com/vMNNYGD.png)
+
+
